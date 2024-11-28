@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Weselny</title>
+    <link rel="stylesheet" href="styl5.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="logo.png" alt="logo" height="70px">
+        <p>Dom Weselny zorganizuje wesele za Ciebie</p>
+        <img src="logo.png" alt="logo" height="70px">
+
+    <div class="main-panel">
+        <div class="left">
+            <h2 id="naglowek">Dom Weselny</h2>
+            <p>ul. Przemysłowa 5</p>
+            <p>Kalisz</p>
+            <p><a href="logo.png">Pobierz logo</a></p>
+        </div>
+        <div class="center">
+            <h2>Oferujemy</h2>
+            <ul>
+                <li>Wesela</li>
+                <li>Bankety</li>
+                <li>Konferencje</li>
+            </ul>
+        </div>
+        <div class="right">
+            <p><a href="regulamin.txt">Czytaj regulamin</a></p>
+        </div>
+    </div>
+    </div>
+    <div class="dolny">
+        <h2>Ile będzie kosztowało moje wesele?</h2>
+        <p>Podaj liczbę gości:</p><input id="liczba gosci" type="number">
+        <input type="checkbox"><p>Wesele z poprawinami?</p>
+        <input onclick="obliczkosztwesela()" type="button" value="oblicz koszt">
+        <p id="wynik"></p>
+    </div>
+    <footer class="stopka"></footer>
+    <p>Stronę internetową opracował:</p>
+</body>
+<script src="skrypt.js"></script>
+</html>

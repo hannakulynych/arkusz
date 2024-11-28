@@ -1,0 +1,54 @@
+.banner {
+    background-color: #1C59A7;
+    color: white;
+    height: 80px;
+    text-align:center;
+    display: flex;   
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#naglowek{
+    margin: 0%;
+}
+
+.left{
+   background-color: #3A70B5; 
+   width: 33%;
+   height: 200px;
+}
+
+.center{
+    background-color: #5A8AC8; 
+    width: 33%;
+    height: 200px;
+}
+
+.right{
+background-color: #86ACDD;
+height: 200px;
+width: 34%;
+text-align:center;
+}
+
+.dolny{
+background-color: #86ACDD;
+height: 300px;
+text-align:center;
+overflow: hidden;
+}
+
+.stopka{
+    background-color:#1C59A7 ;
+    color: white;
+}
+
+.odsylacz{
+    background-color: yellow;
+    color:blue;
+
+}
+
+.main-panel{
+    display: flex;
+}
